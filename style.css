@@ -341,7 +341,7 @@ a {
 
 .footer {
   /*height: 207px;*/
-  background-image: url(img/footerback.jpg);
+  background-image: url(img_main/footer_background.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -350,11 +350,11 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  opacity: 0.76;
 }
 
 .footer__content {
-  /*height: 207px;*/
-  width: 789px;
+  width: 900px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -375,17 +375,17 @@ a {
 
 .footer__head {
   font-weight: 500;
-  font-size: 24px;
+  font-size: 14px;
   line-height: 29px;
-  color: #000000;
+  color: white;
   /*margin-bottom: 12px;*/
 }
 
 .footer__link {
-  font-weight: 500;
-  font-size: 14px;
+  font-weight: 100;
+  font-size: 10px;
   line-height: 17px;
-  color: #888888;
+  color: white;
   text-decoration: none;
 }
 
@@ -414,7 +414,7 @@ a {
 .form__text {
   font-size: 14px;
   line-height: 16px;
-  color: #000000;
+  color: white;
   margin-bottom: 16px;
 }
 
