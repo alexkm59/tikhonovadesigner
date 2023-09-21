@@ -342,7 +342,6 @@ a {
 
 .footer {
   /*height: 207px;*/
-  background-image: url(img_main/footer_background.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -351,7 +350,8 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  opacity: 0.76;
+  opacity: 0.96;
+  background-color: #000000;
 }
 
 .footer__content {
@@ -392,7 +392,7 @@ a {
 
 .footer__link:hover {
   text-decoration: underline;
-  color: #000000;
+  color: wheat;
 }
 
 .footer__icons {
