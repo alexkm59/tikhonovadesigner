@@ -5,7 +5,9 @@
 }
 
 body {
-  font-family: "Merriweather Sans", sans-serif;
+  font-family: "ABChanel PB SemiBold S";
+  font-weight: 600;
+  letter-spacing: normal;
 }
 
 a {
@@ -150,11 +152,13 @@ a {
   gap: 32px;
 }
 .menu__link {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 20px;
-  text-decoration: none;
-  font-weight: 800;
+  font-weight: 600;
   color: black;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: normal;
 }
 .menu__link:hover {
   text-decoration: underline;
@@ -911,4 +915,10 @@ a {
   .footer__info {
     gap: 100px;
   }
+}
+@font-face {
+  font-family: "ABChanel PB SemiBold S";
+  src: url("./Fonts/ABChanel PB SemiBold S.ttf") format("truetype");
+  font-style: Regular;
+  font-weight: normal;
 }/*# sourceMappingURL=style.css.map */

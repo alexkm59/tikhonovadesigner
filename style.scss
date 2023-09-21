@@ -9,8 +9,11 @@ $gap: 32px;
 
 body {
   // font-family: "Montserrat", sans-serif;
-    font-family:"Merriweather Sans", sans-serif;
-}
+    // font-family:"Merriweather Sans", sans-serif;
+    font-family: "ABChanel PB SemiBold S";
+    font-weight: 600;
+    letter-spacing: normal;
+  }
 
 a {
   text-decoration: none;
@@ -174,11 +177,14 @@ a {
   &__link {
     // font-family: "Merriweather Sans";
     // font-family: "Helvetica","Arial","sans-serif";
-    font-size: 16px;
+    font-size: 14px;
     line-height: 20px;
-    text-decoration: none;
-    font-weight: 800;
+    // text-decoration: none;
+    font-weight: 600;
     color: black;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: normal;
 
     &:hover {
       text-decoration: underline;
@@ -531,3 +537,12 @@ a {
 @import "cart";
 @import "tablet";
 @import "mobile";
+
+@font-face {
+  // название шрифта(чтобы не запутаться лучше указать название папки со шрифтом) 
+  font-family: "ABChanel PB SemiBold S"; 
+  // адрес шрифта и тип 
+  src: url("./Fonts/ABChanel PB SemiBold S.ttf") format("truetype"); 
+  font-style: Regular; 
+  font-weight: normal; 
+  } 
