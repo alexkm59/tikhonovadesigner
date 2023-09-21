@@ -1,1 +1,0 @@
-# tikhonovadesigner.gethub.io

@@ -26,23 +26,16 @@
 	}
 }
 
-.cart_top {
-    height: 400px;
-    background-image: url(img/cartback.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
 
-.cart_title {
-    font-weight: 600;
-    font-size: 64px;
-    line-height: 70px;
-    margin-top: 64px;
-    margin-bottom: 16px;
-    color: $color-text;
-    max-width: 792px;
-}
+// .cart_title {
+//     font-weight: 600;
+//     font-size: 64px;
+//     line-height: 70px;
+//     margin-top: 64px;
+//     margin-bottom: 16px;
+//     color: $color-text;
+//     max-width: 792px;
+// }
 
 .cart {
     display: grid;

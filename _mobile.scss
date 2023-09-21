@@ -14,7 +14,7 @@
     }
 
     .logo {
-        &__img {
+        &__header {
             width: 99px;
         }
 
@@ -30,15 +30,15 @@
         }
     }
 
+
     .catalog {
 
-        &_content {
-            margin-top: 0px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-
-        }
+        // &_content {
+        //     margin-top: 0px;
+        //     display: flex;
+        //     flex-direction: column;
+        //     align-items: center;
+        // }
 
         &_nav_menu__link {
             font-weight: 400;
@@ -63,27 +63,22 @@
         line-height: 17px;
     }
 
-    .title {
-        font-weight: 600;
-        font-size: 48px;
-        line-height: 59px;
-        text-align: center;
 
-    }
 
     .cart {
         row-gap: 40px;
+
         &__name-box {
             display: none;
         }
 
-        &_title {
-            font-weight: 600;
-            font-size: 48px;
-            line-height: 59px;
-            max-width: 343px;
-            text-align: center;
-        }
+        // &_title {
+        //     font-weight: 600;
+        //     font-size: 48px;
+        //     line-height: 59px;
+        //     // max-width: 343px;
+        //     text-align: center;
+        // }
 
         &__img {
             display: none;
@@ -123,6 +118,7 @@
             font-size: 12px;
             line-height: 15px;
         }
+
         &__button-box {
             margin-top: 0px;
         }
@@ -163,6 +159,9 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+            &_center{
+                padding-top: 0px;
+            }
         }
 
         &__text {
@@ -176,7 +175,14 @@
             font-weight: 400;
             font-size: 14px;
             line-height: 24px;
+        }
 
+        &__title {
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 59px;
+            text-align: center;
+            
         }
     }
 
@@ -219,7 +225,7 @@
         }
 
 
-        &__content {
+        &-content {
             row-gap: 32px;
             column-gap: 16px;
             margin-top: 0px
@@ -248,12 +254,12 @@
 
         &__img {
             align-items: center;
-            min-width: 343px;
+            max-width: 376px;
         }
 
     }
 
-    .box__link {
+    .box-link {
         padding-top: 36px;
         padding-bottom: 32px;
     }
