@@ -128,11 +128,11 @@ a {
     }
     &_right{
         width: auto;
-      height: auto;
+        height: auto;
     }
     &_left{
-        width: 25px;
-        height: 25px;
+    width: 86px;
+      
     }
   }
 
@@ -177,7 +177,7 @@ a {
   &__link {
     // font-family: "Merriweather Sans";
     // font-family: "Helvetica","Arial","sans-serif";
-    font-size: 11px;
+    font-size: 10.5px;
     line-height: 20px;
     // text-decoration: none;
     font-weight: 600;
@@ -185,7 +185,7 @@ a {
     text-align: left;
     text-transform: uppercase;
     letter-spacing: normal;
-
+    margin-bottom: 6px;
     &:hover {
       // text-decoration: underline;
       text-decoration: solid underline purple 4px;

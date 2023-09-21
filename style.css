@@ -107,8 +107,7 @@ a {
   height: auto;
 }
 .header__container_left {
-  width: 25px;
-  height: 25px;
+  width: 86px;
 }
 .header__input {
   width: 288px;
@@ -152,13 +151,14 @@ a {
   gap: 32px;
 }
 .menu__link {
-  font-size: 11px;
+  font-size: 10.5px;
   line-height: 20px;
   font-weight: 600;
   color: black;
   text-align: left;
   text-transform: uppercase;
   letter-spacing: normal;
+  margin-bottom: 6px;
 }
 .menu__link:hover {
   -webkit-text-decoration: solid underline purple 4px;
